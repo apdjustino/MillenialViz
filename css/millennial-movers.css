@@ -1,0 +1,110 @@
+path.counties{
+    stroke:black;
+    stroke-width: 1;
+    fill:none;
+}
+
+#mapCanvas{
+    height:600px;
+    width:60%;
+    position:relative;
+    left:0;
+    top:10%;
+    overflow:hidden;
+    display: block;
+    margin: auto;
+
+}
+
+#mapCanvasRegion {
+    height: 600px;
+    width: 60%;
+    position: relative;
+    left: 0;
+    top: 10%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+
+circle.centroid{
+    fill:red;
+    pointer-events: none;
+
+}
+
+rect.bbox{
+    fill:none;
+    stroke-dasharray: 5 5;
+    stroke: black;
+    stroke-width: 2;
+    pointer-events: none;
+
+}
+
+#navList li {
+    display: inline;
+    list-style-type: none;
+
+}
+
+.navBox{
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    position:relative;
+    height: 50px;
+    width:100px;
+    display: inline-block;
+    padding: 5px;
+    text-align:center;
+    background-color:#EDEDED;
+
+}
+
+.navBox:hover{
+    border: solid 1px;
+}
+
+.chevron{
+    display:inline-block;
+    font-size: xx-large;
+    cursor:pointer;
+}
+
+#navContainer{
+    position:relative;
+    display:block;
+    margin:auto;
+    width:40%;
+}
+
+.view-canvas{
+    display:block;
+    margin:auto;
+    position:relative;
+    width:30%;
+}
+
+table{
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+path.slice:hover{
+    stroke:black;
+    stroke-width: 2;
+}
+
+#title{
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    display:block;
+    margin:auto;
+    width:35%;
+    position:relative;
+}
+
+.view.ng-enter{
+    -webkit-animation: fadeIn 1.5s both ease-in;
+    z-index:8888;
+}
+
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/millennial-movers.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="css/animate.css"/>
+</head>
+<body>
+
+
+
+<div id="navContainer">
+    <ul id="navList">
+        <li><div class="chevron">&lsaquo;</div></li>
+        <li><div class="navBox">Millennials in the Region</div></li>
+        <li><div class="navBox"><a href="#/millennial-movers">Millennial Movers</a></div></li>
+        <li><div class="navBox">Net Migration by Age</div></li>
+        <li><div class="chevron">&rsaquo;</div></li>
+    </ul>
+</div>
+
+<div class="view" ng-view></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.3.15/angular-route.min.js"></script>
+<script src="https://code.angularjs.org/1.3.15/angular-animate.min.js"></script>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.9/d3.geo.projection.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="js/mover-dev.js"></script>
+<script src="js/millennial-mover.js"></script>
+<script src="js/region.js"></script>
+
+</body>
+</html>
