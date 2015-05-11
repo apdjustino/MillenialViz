@@ -45,7 +45,7 @@ app.controller('moversCtrl', function($scope, pieFactory, mapFactory){
             .attr("class", "group")
             .append("path")
             .attr("d", path)
-            .attr("class", "counties");
+            .attr("class", "counties")
 
 
         //add pie charts
@@ -186,7 +186,7 @@ app.controller('moversCtrl', function($scope, pieFactory, mapFactory){
 
         //<editor-fold desc="Events">
         d3.selectAll("svg.pieChart")
-            .on("mouseenter", function(d){
+            .on("mouseover", function(d){
                 var data = d;
                 var element = this;
                 d3.selectAll("svg.pieChart").style("opacity", function(){return (this === element)? 1.0 : 0.0})
@@ -218,7 +218,7 @@ app.controller('moversCtrl', function($scope, pieFactory, mapFactory){
 
 
             })
-            .on("mouseleave", function(){
+            .on("mouseout", function(){
                 var element = this;
                 d3.selectAll("svg.pieChart").style("opacity", "0.6")
                     .attr("height", config.ph)
@@ -248,7 +248,7 @@ app.controller('moversCtrl', function($scope, pieFactory, mapFactory){
 
 
         //<editor-fold desc="Reset Function">
-        map.on("viewreset", reset());
+        map.on("viewreset", reset);
         reset();
 
         function reset(){

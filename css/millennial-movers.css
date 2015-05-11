@@ -106,5 +106,19 @@ path.slice:hover{
     z-index:8888;
 }
 
+path.zones:hover{
+    stroke:black;
+    stroke-width:1;
+}
+
+.q0-9 { fill:#f7fbff; opacity: .5; }
+.q1-9 { fill:#deebf7; opacity: .5;}
+.q2-9 { fill:#c6dbef; opacity: .5;}
+.q3-9 { fill:#9ecae1; opacity: .5;}
+.q4-9 { fill:#6baed6; opacity: .5;}
+.q5-9 { fill:#4292c6; opacity: .5;}
+.q6-9 { fill:#2171b5; opacity: .5; }
+.q7-9 { fill:#08519c; opacity: .5;}
+.q8-9 { fill:#08306b; opacity: .5;}
 
 
