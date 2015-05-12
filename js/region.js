@@ -305,7 +305,7 @@ var colorbrewer = {YlGn: {
 app.controller('regionCtrl', function($scope, mapFactory){
     $scope.years = [2009, 2010, 2011, 2012, 2013];
     $scope.selectedYear = $scope.years[0];
-    var map = new L.Map("mapCanvasRegion", {center:[39.75, -104.95], zoom:10})
+    var map = new L.Map("mapCanvasRegion", {center:[39.75, -104.95], zoom:9})
         .addLayer(new L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'));
 
     //L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
@@ -313,13 +313,15 @@ app.controller('regionCtrl', function($scope, mapFactory){
     //    attribution: 'Map data (c) <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
     //}).addTo(map)
 
-    map.setView([39.75, -104.95], 11);
+    map.setView([39.75, -104.95], 10);
 
     var mapByID = d3.map();
 
+    var pct = d3.format(",.1%");
     var quantize = d3.scale.quantize()
         .domain([0,1])
-        .range(d3.range(9).map(function(i){return "q" + i + "-9"}));
+        .range(d3.range(9).map(function(i){return "q" + i + "-9";}));
+
 
     function action(pFunction) {
 
@@ -343,6 +345,8 @@ app.controller('regionCtrl', function($scope, mapFactory){
     var svg = d3.select(map.getPanes().overlayPane).append("svg");
     var g = svg.append("g").attr("class", "leaflet-zoom-hide");
 
+
+
     function loadShapes (error, blockGrp){
 
 
@@ -364,17 +368,15 @@ app.controller('regionCtrl', function($scope, mapFactory){
                 return quantize(mapByID.get(d.properties.GEOID10).pct)+ " zones";
             })
 
-        var title = feature.append("svg:title").text(function(d){return mapByID.get(d.properties.GEOID10).year + " " +  mapByID.get(d.properties.GEOID10).pct});
 
-
-
+        var title = feature.append("svg:title")
+            .attr("class", "pathTitle")
 
 
         map.on("viewreset", reset);
         reset();
         function reset() {
-            var bounds = path.bounds(shape),
-                topLeft = bounds[0],
+            var bounds = path.bounds(shape), topLeft = bounds[0],
                 bottomRight = bounds[1];
 
             svg .attr("width", bottomRight[0] - topLeft[0])
@@ -387,7 +389,15 @@ app.controller('regionCtrl', function($scope, mapFactory){
             feature.attr("d", path);
             title
 
-                .text(function(d){return mapByID.get(d.properties.GEOID10).year + " " + mapByID.get(d.properties.GEOID10).pct});
+                .text(function(d){
+                    return "Year: " + mapByID.get(d.properties.GEOID10).year + "\n" +
+                            "Total Pop: " + mapByID.get(d.properties.GEOID10).total + "\n" +
+                            "Millennial Pop: " + mapByID.get(d.properties.GEOID10).mil_pop + "\n" +
+                            "Pct Millennial: " + pct(mapByID.get(d.properties.GEOID10).pct)+ "\n" +
+                            "Quantile: " + quantize(mapByID.get(d.properties.GEOID10).pct)+ "\n" +
+                            "ID: " + d.properties.GEOID10;
+
+                });
 
             feature.attr("class", function(d){return quantize(mapByID.get(d.properties.GEOID10).pct)+ " zones";});
 
@@ -398,11 +408,6 @@ app.controller('regionCtrl', function($scope, mapFactory){
             this.stream.point(point.x, point.y);
         }
 
-
-
-
-
-
     }
 
     $scope.$watch('selectedYear', function(nv, ov){
@@ -411,21 +416,36 @@ app.controller('regionCtrl', function($scope, mapFactory){
         }
         else{
             action(resetShapes);
-            action(resetTitle);
+
         }
+
 
 
     })
 
     function resetShapes(error, blockGrp){
+
         var shape = topojson.feature(blockGrp, blockGrp.objects.bg10);
         var feature = g.selectAll("path")
-            .data(shape.features)
-            .attr("class", function(d){return quantize(mapByID.get(d.properties.GEOID10).pct)+ " zones";});
+            .attr("class", "")
+            //.data(shape.features)
+            //.attr("class", function(d){return quantize(mapByID.get(d.properties.GEOID10).pct)+ " zones";});
 
-       d3.selectAll("title")
+        feature
             .data(shape.features)
-            .text(function(d){return mapByID.get(d.properties.GEOID10).year + " " + mapByID.get(d.properties.GEOID10).pct});
+            .attr("class", function(d){return quantize(mapByID.get(d.properties.GEOID10).pct)+ " zones"});
+
+
+       d3.selectAll(".pathTitle")
+            .data(shape.features)
+            .text(function(d){
+               return "Year: " + mapByID.get(d.properties.GEOID10).year + "\n" +
+                   "Total Pop: " + mapByID.get(d.properties.GEOID10).total + "\n" +
+                   "Millennial Pop: " + mapByID.get(d.properties.GEOID10).mil_pop + "\n" +
+                   "Pct Millennial: " + pct(mapByID.get(d.properties.GEOID10).pct) + "\n" +
+                   "Quantile: " + quantize(mapByID.get(d.properties.GEOID10).pct) + "\n" +
+                   "ID: " + d.properties.GEOID10;
+           });
 
 
 
