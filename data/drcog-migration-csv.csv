@@ -1,0 +1,911 @@
+county,age,netMigration
+Adams,0,-135
+Adams,1,-281.4
+Adams,2,-316.2
+Adams,3,-64.4
+Adams,4,-33.9
+Adams,5,-10.8
+Adams,6,111.1
+Adams,7,122.8
+Adams,8,67.5
+Adams,9,185.9
+Adams,10,1022
+Adams,11,873
+Adams,12,1006.2
+Adams,13,741.1
+Adams,14,627.7
+Adams,15,615.7
+Adams,16,517.6
+Adams,17,463.1
+Adams,18,123.2
+Adams,19,-14.9
+Adams,20,75.1
+Adams,21,227.5
+Adams,22,543.6
+Adams,23,1048.1
+Adams,24,1357.3
+Adams,25,1792.7
+Adams,26,1951.3
+Adams,27,1934.5
+Adams,28,2289.3
+Adams,29,2484.1
+Adams,30,2470.6
+Adams,31,2185.7
+Adams,32,1982.4
+Adams,33,1635.8
+Adams,34,1468.8
+Adams,35,1294.9
+Adams,36,1251.4
+Adams,37,933.3
+Adams,38,710.4
+Adams,39,371.4
+Adams,40,594.1
+Adams,41,656.5
+Adams,42,431.7
+Adams,43,279
+Adams,44,296.4
+Adams,45,106.1
+Adams,46,132.8
+Adams,47,185.3
+Adams,48,-0.2
+Adams,49,76.6
+Adams,50,38.6
+Adams,51,334.6
+Adams,52,113.9
+Adams,53,251.6
+Adams,54,338.3
+Adams,55,161.7
+Adams,56,253.5
+Adams,57,286.5
+Adams,58,230.1
+Adams,59,240.8
+Adams,60,31.2
+Adams,61,166
+Adams,62,30.2
+Adams,63,144.7
+Adams,64,263.4
+Adams,65,50.8
+Adams,66,-50.9
+Adams,67,-52.1
+Adams,68,46.9
+Adams,69,-36.9
+Adams,70,-49.7
+Adams,71,-65.7
+Adams,72,-109
+Adams,73,25.4
+Adams,74,-33.3
+Adams,75,-103.7
+Adams,76,17.1
+Adams,77,32.4
+Adams,78,-46.9
+Adams,79,8.9
+Adams,80,-38.1
+Adams,81,20.3
+Adams,82,61
+Adams,83,19.6
+Adams,84,-12.8
+Adams,85,7
+Adams,86,19.5
+Adams,87,56
+Adams,88,-12.7
+Adams,89,5.9
+Adams,90,520.3
+Arapahoe,0,-156.7
+Arapahoe,1,-22
+Arapahoe,2,-33
+Arapahoe,3,117.8
+Arapahoe,4,281.2
+Arapahoe,5,282.1
+Arapahoe,6,438.5
+Arapahoe,7,398.3
+Arapahoe,8,606
+Arapahoe,9,703.7
+Arapahoe,10,1474.7
+Arapahoe,11,1351.2
+Arapahoe,12,1283.7
+Arapahoe,13,1331
+Arapahoe,14,1210.9
+Arapahoe,15,1170.9
+Arapahoe,16,1354.1
+Arapahoe,17,1170.4
+Arapahoe,18,238.2
+Arapahoe,19,-1247.5
+Arapahoe,20,-1550.2
+Arapahoe,21,-1061
+Arapahoe,22,-1034.8
+Arapahoe,23,-253
+Arapahoe,24,684.7
+Arapahoe,25,727.9
+Arapahoe,26,1152.1
+Arapahoe,27,1285.2
+Arapahoe,28,2338.5
+Arapahoe,29,3417
+Arapahoe,30,3236
+Arapahoe,31,2999.6
+Arapahoe,32,2480.2
+Arapahoe,33,1845.6
+Arapahoe,34,1391.8
+Arapahoe,35,989.7
+Arapahoe,36,1250.9
+Arapahoe,37,738.5
+Arapahoe,38,574.2
+Arapahoe,39,725
+Arapahoe,40,581.1
+Arapahoe,41,912.5
+Arapahoe,42,675.2
+Arapahoe,43,641.8
+Arapahoe,44,315.4
+Arapahoe,45,201.7
+Arapahoe,46,477.1
+Arapahoe,47,329
+Arapahoe,48,133.2
+Arapahoe,49,-16.9
+Arapahoe,50,35.8
+Arapahoe,51,49.7
+Arapahoe,52,-169.5
+Arapahoe,53,-93.3
+Arapahoe,54,-185.7
+Arapahoe,55,-339.3
+Arapahoe,56,-334
+Arapahoe,57,-326.7
+Arapahoe,58,-538
+Arapahoe,59,-515.5
+Arapahoe,60,-668.4
+Arapahoe,61,-558.1
+Arapahoe,62,-788.8
+Arapahoe,63,-419.5
+Arapahoe,64,36.8
+Arapahoe,65,-477.1
+Arapahoe,66,-379.7
+Arapahoe,67,-355.8
+Arapahoe,68,-124.1
+Arapahoe,69,-182.8
+Arapahoe,70,-202.2
+Arapahoe,71,-148.6
+Arapahoe,72,-10.9
+Arapahoe,73,-120.4
+Arapahoe,74,-137.2
+Arapahoe,75,-15.8
+Arapahoe,76,59.6
+Arapahoe,77,15.8
+Arapahoe,78,-7.1
+Arapahoe,79,96.8
+Arapahoe,80,85.1
+Arapahoe,81,77.6
+Arapahoe,82,196.9
+Arapahoe,83,40.8
+Arapahoe,84,102.4
+Arapahoe,85,102.8
+Arapahoe,86,136.5
+Arapahoe,87,208
+Arapahoe,88,175.4
+Arapahoe,89,120.5
+Arapahoe,90,1532.3
+Boulder,0,-55.8
+Boulder,1,-34.9
+Boulder,2,-71.3
+Boulder,3,66.1
+Boulder,4,-13.5
+Boulder,5,70.9
+Boulder,6,70.9
+Boulder,7,22.8
+Boulder,8,-99.5
+Boulder,9,-208.7
+Boulder,10,334.1
+Boulder,11,194.2
+Boulder,12,344.2
+Boulder,13,256.6
+Boulder,14,155.2
+Boulder,15,72.2
+Boulder,16,185.5
+Boulder,17,54.5
+Boulder,18,1254.4
+Boulder,19,3098
+Boulder,20,3581.4
+Boulder,21,3338.2
+Boulder,22,2752.8
+Boulder,23,1640
+Boulder,24,886.3
+Boulder,25,996.6
+Boulder,26,673.3
+Boulder,27,606.9
+Boulder,28,-638.1
+Boulder,29,-2301.1
+Boulder,30,-1849.3
+Boulder,31,-1928.8
+Boulder,32,-1891.2
+Boulder,33,-1118
+Boulder,34,-782.8
+Boulder,35,-625.5
+Boulder,36,-486.1
+Boulder,37,-646.9
+Boulder,38,-676.8
+Boulder,39,-529
+Boulder,40,-375.5
+Boulder,41,40.7
+Boulder,42,-92.4
+Boulder,43,-138.5
+Boulder,44,-149
+Boulder,45,-208.3
+Boulder,46,-102
+Boulder,47,-239
+Boulder,48,-191.9
+Boulder,49,-345.7
+Boulder,50,-278.6
+Boulder,51,-206.6
+Boulder,52,-525.6
+Boulder,53,-428.9
+Boulder,54,-346.3
+Boulder,55,-483.6
+Boulder,56,-332.4
+Boulder,57,-559.4
+Boulder,58,-475.7
+Boulder,59,-432.8
+Boulder,60,-503
+Boulder,61,-423.5
+Boulder,62,-469.6
+Boulder,63,-479.2
+Boulder,64,-131.1
+Boulder,65,-249
+Boulder,66,-260.4
+Boulder,67,-129
+Boulder,68,-147.3
+Boulder,69,-212.9
+Boulder,70,-108.5
+Boulder,71,-62.7
+Boulder,72,-72.1
+Boulder,73,-6.2
+Boulder,74,-100.2
+Boulder,75,-47.6
+Boulder,76,-27.3
+Boulder,77,-73.2
+Boulder,78,-17.9
+Boulder,79,28.6
+Boulder,80,14.2
+Boulder,81,75.1
+Boulder,82,26
+Boulder,83,80.3
+Boulder,84,88.2
+Boulder,85,106.3
+Boulder,86,96.8
+Boulder,87,95.3
+Boulder,88,111.9
+Boulder,89,134.3
+Boulder,90,860.3
+Broomfield,0,1.8
+Broomfield,1,34
+Broomfield,2,74.7
+Broomfield,3,139.7
+Broomfield,4,169.5
+Broomfield,5,228.8
+Broomfield,6,268.5
+Broomfield,7,192.3
+Broomfield,8,474.3
+Broomfield,9,383.5
+Broomfield,10,272.5
+Broomfield,11,229.1
+Broomfield,12,219.5
+Broomfield,13,184.2
+Broomfield,14,193.8
+Broomfield,15,148.1
+Broomfield,16,134.6
+Broomfield,17,140.6
+Broomfield,18,47.9
+Broomfield,19,-98.5
+Broomfield,20,-127.1
+Broomfield,21,-65.2
+Broomfield,22,-46.7
+Broomfield,23,23.1
+Broomfield,24,77
+Broomfield,25,50.2
+Broomfield,26,154.3
+Broomfield,27,185.1
+Broomfield,28,230.3
+Broomfield,29,333.2
+Broomfield,30,421.6
+Broomfield,31,430.9
+Broomfield,32,429.1
+Broomfield,33,445.6
+Broomfield,34,447.2
+Broomfield,35,422.3
+Broomfield,36,358
+Broomfield,37,371.7
+Broomfield,38,387.5
+Broomfield,39,369.9
+Broomfield,40,367.7
+Broomfield,41,372.5
+Broomfield,42,269.9
+Broomfield,43,177.8
+Broomfield,44,182.3
+Broomfield,45,139.2
+Broomfield,46,144.2
+Broomfield,47,129.7
+Broomfield,48,132.5
+Broomfield,49,136.3
+Broomfield,50,65.7
+Broomfield,51,100.9
+Broomfield,52,54.2
+Broomfield,53,107.9
+Broomfield,54,90.8
+Broomfield,55,97.3
+Broomfield,56,128.2
+Broomfield,57,54.5
+Broomfield,58,79.4
+Broomfield,59,88.9
+Broomfield,60,62.3
+Broomfield,61,79
+Broomfield,62,74.8
+Broomfield,63,118.8
+Broomfield,64,98.2
+Broomfield,65,117.4
+Broomfield,66,90.5
+Broomfield,67,120.8
+Broomfield,68,123.8
+Broomfield,69,112.8
+Broomfield,70,91.7
+Broomfield,71,109.6
+Broomfield,72,112.1
+Broomfield,73,84.6
+Broomfield,74,113
+Broomfield,75,98.1
+Broomfield,76,73.9
+Broomfield,77,81.6
+Broomfield,78,72.6
+Broomfield,79,76.2
+Broomfield,80,75.9
+Broomfield,81,101
+Broomfield,82,59.2
+Broomfield,83,47.3
+Broomfield,84,58.9
+Broomfield,85,57
+Broomfield,86,66.4
+Broomfield,87,37.5
+Broomfield,88,52.3
+Broomfield,89,34.6
+Broomfield,90,300.2
+Clear Creek,0,-3
+Clear Creek,1,15.2
+Clear Creek,2,-7.3
+Clear Creek,3,15.2
+Clear Creek,4,-23.5
+Clear Creek,5,-2.3
+Clear Creek,6,-18.3
+Clear Creek,7,-10.8
+Clear Creek,8,-21.5
+Clear Creek,9,-30
+Clear Creek,10,-14.5
+Clear Creek,11,-34.3
+Clear Creek,12,-4.8
+Clear Creek,13,-29
+Clear Creek,14,-29.1
+Clear Creek,15,-19.3
+Clear Creek,16,-15.7
+Clear Creek,17,2.6
+Clear Creek,18,-31.2
+Clear Creek,19,-51.6
+Clear Creek,20,-50.7
+Clear Creek,21,-71.1
+Clear Creek,22,-72.3
+Clear Creek,23,-22.5
+Clear Creek,24,-57.9
+Clear Creek,25,-42.3
+Clear Creek,26,-48.1
+Clear Creek,27,-56
+Clear Creek,28,-14.8
+Clear Creek,29,24.4
+Clear Creek,30,42.5
+Clear Creek,31,36
+Clear Creek,32,45.3
+Clear Creek,33,38.5
+Clear Creek,34,45.5
+Clear Creek,35,59.6
+Clear Creek,36,33.9
+Clear Creek,37,45.7
+Clear Creek,38,22.9
+Clear Creek,39,49.1
+Clear Creek,40,40.4
+Clear Creek,41,42.2
+Clear Creek,42,6.4
+Clear Creek,43,30.8
+Clear Creek,44,1.8
+Clear Creek,45,-1.9
+Clear Creek,46,27.5
+Clear Creek,47,3.5
+Clear Creek,48,-3.5
+Clear Creek,49,-17.3
+Clear Creek,50,2.1
+Clear Creek,51,24.5
+Clear Creek,52,28.6
+Clear Creek,53,14.3
+Clear Creek,54,-0.9
+Clear Creek,55,-9.1
+Clear Creek,56,6.3
+Clear Creek,57,-5.6
+Clear Creek,58,-15.9
+Clear Creek,59,29
+Clear Creek,60,4.2
+Clear Creek,61,-5.7
+Clear Creek,62,-18.5
+Clear Creek,63,11.3
+Clear Creek,64,35
+Clear Creek,65,15.9
+Clear Creek,66,12.4
+Clear Creek,67,4.4
+Clear Creek,68,1.7
+Clear Creek,69,11.5
+Clear Creek,70,-4
+Clear Creek,71,5.6
+Clear Creek,72,17
+Clear Creek,73,-6.4
+Clear Creek,74,-19.5
+Clear Creek,75,16.4
+Clear Creek,76,19.1
+Clear Creek,77,-4.1
+Clear Creek,78,3.9
+Clear Creek,79,9.7
+Clear Creek,80,16.9
+Clear Creek,81,0.9
+Clear Creek,82,-1.2
+Clear Creek,83,16.9
+Clear Creek,84,4.9
+Clear Creek,85,6.9
+Clear Creek,86,15.5
+Clear Creek,87,6.5
+Clear Creek,88,6.8
+Clear Creek,89,11.5
+Clear Creek,90,115.9
+Denver,0,-579.5
+Denver,1,-1105.1
+Denver,2,-1305.5
+Denver,3,-1424.7
+Denver,4,-1817.8
+Denver,5,-2278.3
+Denver,6,-2440.7
+Denver,7,-2773.6
+Denver,8,-2965.8
+Denver,9,-3124.5
+Denver,10,-1432.9
+Denver,11,-1389.5
+Denver,12,-1311.6
+Denver,13,-1321.4
+Denver,14,-1337.8
+Denver,15,-1136.1
+Denver,16,-1035.7
+Denver,17,-1064.8
+Denver,18,-319.5
+Denver,19,977.2
+Denver,20,1264
+Denver,21,1650
+Denver,22,2648.6
+Denver,23,4219.2
+Denver,24,5647.6
+Denver,25,6979.4
+Denver,26,7042.9
+Denver,27,7004.4
+Denver,28,6782.2
+Denver,29,5802
+Denver,30,5156.6
+Denver,31,3941.1
+Denver,32,2497.8
+Denver,33,926.4
+Denver,34,-389.9
+Denver,35,-1620.8
+Denver,36,-1925
+Denver,37,-2546.2
+Denver,38,-2924.8
+Denver,39,-3061.2
+Denver,40,-3401.3
+Denver,41,-2155.7
+Denver,42,-2212
+Denver,43,-1835.2
+Denver,44,-1935.9
+Denver,45,-2290.1
+Denver,46,-1653
+Denver,47,-1331
+Denver,48,-1307.1
+Denver,49,-963.8
+Denver,50,-1096
+Denver,51,-381
+Denver,52,-857.5
+Denver,53,-436.8
+Denver,54,-568.9
+Denver,55,-724.4
+Denver,56,-355.6
+Denver,57,-479.9
+Denver,58,-487.6
+Denver,59,-437.7
+Denver,60,-823.1
+Denver,61,-612.8
+Denver,62,-360.6
+Denver,63,-480.7
+Denver,64,29.1
+Denver,65,-279.4
+Denver,66,-379.3
+Denver,67,-310.8
+Denver,68,-177.4
+Denver,69,-147.9
+Denver,70,-311.2
+Denver,71,-180.3
+Denver,72,-95.4
+Denver,73,-205.3
+Denver,74,-238.9
+Denver,75,-354.8
+Denver,76,-47.7
+Denver,77,-239.2
+Denver,78,-184.5
+Denver,79,-203.1
+Denver,80,-260.9
+Denver,81,-197.3
+Denver,82,-200
+Denver,83,-288.8
+Denver,84,-255.5
+Denver,85,-259
+Denver,86,-266.9
+Denver,87,-207.4
+Denver,88,-297.4
+Denver,89,-216
+Denver,90,-2130.4
+Douglas,0,90.2
+Douglas,1,281.1
+Douglas,2,352.3
+Douglas,3,524.1
+Douglas,4,767.6
+Douglas,5,925.9
+Douglas,6,1399.8
+Douglas,7,1407
+Douglas,8,1583
+Douglas,9,1836.2
+Douglas,10,2039
+Douglas,11,1614.6
+Douglas,12,1534.6
+Douglas,13,1393.4
+Douglas,14,1267.9
+Douglas,15,1297.3
+Douglas,16,1092.4
+Douglas,17,923
+Douglas,18,170.8
+Douglas,19,-893.4
+Douglas,20,-1279.3
+Douglas,21,-1253.6
+Douglas,22,-1085.2
+Douglas,23,-684
+Douglas,24,-378.8
+Douglas,25,-316.3
+Douglas,26,150.6
+Douglas,27,503.7
+Douglas,28,1298.3
+Douglas,29,2022.9
+Douglas,30,2455.1
+Douglas,31,2621.2
+Douglas,32,2873.8
+Douglas,33,2801.7
+Douglas,34,2655.6
+Douglas,35,2711.6
+Douglas,36,2681.2
+Douglas,37,2519.3
+Douglas,38,2470.4
+Douglas,39,2488.8
+Douglas,40,2448.3
+Douglas,41,2193.9
+Douglas,42,1992.2
+Douglas,43,1611.6
+Douglas,44,1465.4
+Douglas,45,1284.7
+Douglas,46,1164.5
+Douglas,47,1112.1
+Douglas,48,979.3
+Douglas,49,929.4
+Douglas,50,860.7
+Douglas,51,742.8
+Douglas,52,636.3
+Douglas,53,734.1
+Douglas,54,659.8
+Douglas,55,610.6
+Douglas,56,516.3
+Douglas,57,498.8
+Douglas,58,540.8
+Douglas,59,433.2
+Douglas,60,379.7
+Douglas,61,453.1
+Douglas,62,399
+Douglas,63,461.8
+Douglas,64,438.8
+Douglas,65,291.4
+Douglas,66,249.4
+Douglas,67,290
+Douglas,68,325
+Douglas,69,285.8
+Douglas,70,274.1
+Douglas,71,210.2
+Douglas,72,203.4
+Douglas,73,197.3
+Douglas,74,234.7
+Douglas,75,203.9
+Douglas,76,171
+Douglas,77,145.1
+Douglas,78,164.8
+Douglas,79,169.4
+Douglas,80,156.5
+Douglas,81,165.8
+Douglas,82,154.6
+Douglas,83,165.9
+Douglas,84,130.5
+Douglas,85,165.4
+Douglas,86,178.5
+Douglas,87,138.4
+Douglas,88,135.8
+Douglas,89,136.2
+Douglas,90,818.9
+Gilpin,0,5.7
+Gilpin,1,13.6
+Gilpin,2,4.8
+Gilpin,3,3.1
+Gilpin,4,-15.7
+Gilpin,5,1.8
+Gilpin,6,7.8
+Gilpin,7,5.6
+Gilpin,8,-12.2
+Gilpin,9,9.6
+Gilpin,10,-13.1
+Gilpin,11,7
+Gilpin,12,-0.8
+Gilpin,13,0.1
+Gilpin,14,-11.7
+Gilpin,15,4.5
+Gilpin,16,-2
+Gilpin,17,0.4
+Gilpin,18,-4.4
+Gilpin,19,-20.7
+Gilpin,20,-31.2
+Gilpin,21,-28
+Gilpin,22,-31.4
+Gilpin,23,-19.8
+Gilpin,24,-12.6
+Gilpin,25,-23.2
+Gilpin,26,-14
+Gilpin,27,-3.9
+Gilpin,28,9.4
+Gilpin,29,22.4
+Gilpin,30,45.1
+Gilpin,31,22.3
+Gilpin,32,30.6
+Gilpin,33,39.6
+Gilpin,34,37.1
+Gilpin,35,37.1
+Gilpin,36,34.6
+Gilpin,37,33.1
+Gilpin,38,2.6
+Gilpin,39,11
+Gilpin,40,-2.4
+Gilpin,41,8.5
+Gilpin,42,18.4
+Gilpin,43,7
+Gilpin,44,21.6
+Gilpin,45,26.8
+Gilpin,46,27.5
+Gilpin,47,12.4
+Gilpin,48,28.1
+Gilpin,49,30.9
+Gilpin,50,49.7
+Gilpin,51,33.2
+Gilpin,52,19.9
+Gilpin,53,59.8
+Gilpin,54,42.3
+Gilpin,55,20.5
+Gilpin,56,27.8
+Gilpin,57,15.4
+Gilpin,58,30.2
+Gilpin,59,26.1
+Gilpin,60,23.8
+Gilpin,61,36.6
+Gilpin,62,26.2
+Gilpin,63,14.5
+Gilpin,64,35.7
+Gilpin,65,11
+Gilpin,66,7.7
+Gilpin,67,20.7
+Gilpin,68,22
+Gilpin,69,25.7
+Gilpin,70,5.1
+Gilpin,71,7.3
+Gilpin,72,21.5
+Gilpin,73,17.3
+Gilpin,74,21.9
+Gilpin,75,5.8
+Gilpin,76,8
+Gilpin,77,13
+Gilpin,78,14.1
+Gilpin,79,13.6
+Gilpin,80,11.8
+Gilpin,81,13.6
+Gilpin,82,8.1
+Gilpin,83,13.4
+Gilpin,84,6.6
+Gilpin,85,3.4
+Gilpin,86,19.4
+Gilpin,87,14.7
+Gilpin,88,12.3
+Gilpin,89,18
+Gilpin,90,84.9
+Jefferson,0,22.5
+Jefferson,1,15.2
+Jefferson,2,-79.7
+Jefferson,3,64.9
+Jefferson,4,202.2
+Jefferson,5,275.1
+Jefferson,6,267.3
+Jefferson,7,52.3
+Jefferson,8,76.5
+Jefferson,9,131.2
+Jefferson,10,267.2
+Jefferson,11,243.9
+Jefferson,12,302.3
+Jefferson,13,131.3
+Jefferson,14,153.7
+Jefferson,15,152.5
+Jefferson,16,162.5
+Jefferson,17,93.2
+Jefferson,18,-382.7
+Jefferson,19,-1264
+Jefferson,20,-1659.8
+Jefferson,21,-1625.4
+Jefferson,22,-1734.7
+Jefferson,23,-1595.4
+Jefferson,24,-1431.9
+Jefferson,25,-1161.6
+Jefferson,26,-1263.7
+Jefferson,27,-1007.4
+Jefferson,28,-141.6
+Jefferson,29,642.5
+Jefferson,30,1024.7
+Jefferson,31,950.5
+Jefferson,32,927.6
+Jefferson,33,396.3
+Jefferson,34,235.1
+Jefferson,35,301.5
+Jefferson,36,389.3
+Jefferson,37,132.1
+Jefferson,38,96.6
+Jefferson,39,-32.5
+Jefferson,40,216.8
+Jefferson,41,221.3
+Jefferson,42,256.6
+Jefferson,43,6.7
+Jefferson,44,-151
+Jefferson,45,-268.1
+Jefferson,46,-538.3
+Jefferson,47,-369.1
+Jefferson,48,-342.5
+Jefferson,49,-367.4
+Jefferson,50,-543.8
+Jefferson,51,-314.2
+Jefferson,52,-589.2
+Jefferson,53,-640.9
+Jefferson,54,-551.3
+Jefferson,55,-659.5
+Jefferson,56,-544
+Jefferson,57,-708.1
+Jefferson,58,-597.5
+Jefferson,59,-757.7
+Jefferson,60,-839.8
+Jefferson,61,-692.9
+Jefferson,62,-830.7
+Jefferson,63,-891.8
+Jefferson,64,-209.7
+Jefferson,65,-823.8
+Jefferson,66,-762.6
+Jefferson,67,-686.1
+Jefferson,68,-458.5
+Jefferson,69,-314.2
+Jefferson,70,-475
+Jefferson,71,-272.4
+Jefferson,72,-193.4
+Jefferson,73,-245.7
+Jefferson,74,-180.3
+Jefferson,75,-169.2
+Jefferson,76,-15
+Jefferson,77,-70
+Jefferson,78,-80.3
+Jefferson,79,-38.1
+Jefferson,80,37.9
+Jefferson,81,10.7
+Jefferson,82,108.8
+Jefferson,83,140.2
+Jefferson,84,103.9
+Jefferson,85,51.4
+Jefferson,86,76.9
+Jefferson,87,202.7
+Jefferson,88,130.1
+Jefferson,89,140.6
+Jefferson,90,1539
+Weld,0,26.8
+Weld,1,-58.6
+Weld,2,-6.8
+Weld,3,22.2
+Weld,4,194.8
+Weld,5,468.7
+Weld,6,366.9
+Weld,7,494.1
+Weld,8,550.8
+Weld,9,854.5
+Weld,10,1169.6
+Weld,11,1009.6
+Weld,12,908.5
+Weld,13,933.9
+Weld,14,894.7
+Weld,15,877.3
+Weld,16,783.7
+Weld,17,780.4
+Weld,18,1181.6
+Weld,19,1572
+Weld,20,1492.6
+Weld,21,1329.2
+Weld,22,1006.9
+Weld,23,711.8
+Weld,24,493.2
+Weld,25,675.7
+Weld,26,595.4
+Weld,27,582
+Weld,28,2.9
+Weld,29,-716.7
+Weld,30,-270.9
+Weld,31,-25.2
+Weld,32,317.2
+Weld,33,668.8
+Weld,34,942.3
+Weld,35,939.3
+Weld,36,831.1
+Weld,37,932.1
+Weld,38,1068.7
+Weld,39,978.1
+Weld,40,945.5
+Weld,41,1047.2
+Weld,42,897.9
+Weld,43,884.7
+Weld,44,710.2
+Weld,45,663.3
+Weld,46,703.9
+Weld,47,678.8
+Weld,48,643.1
+Weld,49,643.2
+Weld,50,583.4
+Weld,51,778.1
+Weld,52,593.9
+Weld,53,676.7
+Weld,54,674.8
+Weld,55,613.7
+Weld,56,601.9
+Weld,57,474
+Weld,58,480.3
+Weld,59,558.9
+Weld,60,486.2
+Weld,61,503.7
+Weld,62,488.4
+Weld,63,506.5
+Weld,64,483.8
+Weld,65,335.3
+Weld,66,320.2
+Weld,67,285.6
+Weld,68,290
+Weld,69,241.1
+Weld,70,217.1
+Weld,71,184.8
+Weld,72,188.8
+Weld,73,206.6
+Weld,74,141.9
+Weld,75,93
+Weld,76,142.8
+Weld,77,132.8
+Weld,78,90
+Weld,79,112.8
+Weld,80,59.1
+Weld,81,131.9
+Weld,82,81.8
+Weld,83,113.7
+Weld,84,72.8
+Weld,85,50.3
+Weld,86,49.1
+Weld,87,83.8
+Weld,88,36.7
+Weld,89,27.7
+Weld,90,314.7

@@ -6,6 +6,9 @@ app.config(['$routeProvider', function($routeProvider){
     }).when('/', {
         templateUrl: 'views/millennial-region.html',
         controller: 'regionCtrl'
+    }).when('/millennial-migration', {
+        templateUrl: 'views/millennial-migration.html',
+        controller: 'migrationCtrl'
     })
         .otherwise({
         redirectTo:''

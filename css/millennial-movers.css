@@ -27,6 +27,18 @@ path.counties{
     margin: auto;
 }
 
+#svgCanvas{
+    height: 500px;
+    width: 960px;
+    position: relative;
+    left: 0;
+    top: 10%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
 circle.centroid{
     fill:red;
     pointer-events: none;
@@ -149,3 +161,24 @@ path.zones:hover{
 }
 
 
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    /*display: none;*/
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+#check-list li{
+    list-style-type: none;
+    display: inline;
+}
