@@ -350,7 +350,7 @@ app.controller('regionCtrl', function($scope, mapFactory){
     function loadShapes (error, blockGrp){
 
 
-        console.log(mapByID.get("080010085491"));
+        //console.log(mapByID.get("080010085491"));
 
         var shape = topojson.feature(blockGrp, blockGrp.objects.bg10);
 

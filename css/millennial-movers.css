@@ -1,59 +1,4 @@
-path.counties{
-    stroke:black;
-    stroke-width: 1;
-    fill:none;
-}
-
-#mapCanvas{
-    height:600px;
-    width:60%;
-    position:relative;
-    left:0;
-    top:10%;
-    overflow:hidden;
-    display: block;
-    margin: auto;
-
-}
-
-#mapCanvasRegion {
-    height: 600px;
-    width: 60%;
-    position: relative;
-    left: 0;
-    top: 10%;
-    overflow: hidden;
-    display: block;
-    margin: auto;
-}
-
-#svgCanvas{
-    height: 500px;
-    width: 960px;
-    position: relative;
-    left: 0;
-    top: 10%;
-    overflow: hidden;
-    display: block;
-    margin: auto;
-    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-}
-
-circle.centroid{
-    fill:red;
-    pointer-events: none;
-
-}
-
-rect.bbox{
-    fill:none;
-    stroke-dasharray: 5 5;
-    stroke: black;
-    stroke-width: 2;
-    pointer-events: none;
-
-}
-
+/*index styles*/
 #navList li {
     display: inline;
     list-style-type: none;
@@ -89,15 +34,25 @@ rect.bbox{
     width:40%;
 }
 
-.view-canvas{
-    display:block;
-    margin:auto;
-    position:relative;
-    width:30%;
+
+/*Millennial Movers styles*/
+
+path.counties{
+    stroke:black;
+    stroke-width: 1;
+    fill:none;
 }
 
-table{
-    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+#mapCanvas{
+    height:600px;
+    width:60%;
+    position:relative;
+    left:0;
+    top:10%;
+    overflow:hidden;
+    display: block;
+    margin: auto;
+
 }
 
 path.slice:hover{
@@ -105,24 +60,26 @@ path.slice:hover{
     stroke-width: 2;
 }
 
-#title{
-    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+.view-canvas{
     display:block;
     margin:auto;
-    width:35%;
     position:relative;
+    width:30%;
 }
 
-.view.ng-enter{
-    -webkit-animation: fadeIn 1.5s both ease-in;
-    z-index:8888;
-}
 
-path.zones:hover{
-    stroke:black;
-    stroke-width:1;
-}
+/*Millennial Region Styles*/
 
+#mapCanvasRegion {
+    height: 600px;
+    width: 60%;
+    position: relative;
+    left: 0;
+    top: 10%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
 .q0-9 { fill:#f7fbff; opacity: .5; }
 .q1-9 { fill:#deebf7; opacity: .5;}
 .q2-9 { fill:#c6dbef; opacity: .5;}
@@ -133,33 +90,42 @@ path.zones:hover{
 .q7-9 { fill:#08519c; opacity: .5;}
 .q8-9 { fill:#08306b; opacity: .5;}
 
-.d3-tip {
-    line-height: 1;
-    font-weight: bold;
-    padding: 12px;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    border-radius: 2px;
 
-}
-
-/* Creates a small triangle extender for the tooltip */
-.d3-tip:after {
-    box-sizing: border-box;
-    display: inline;
-    font-size: 10px;
-    width: 100%;
-    line-height: 1;
-    color: rgba(0, 0, 0, 0.8);
-    content: "\25BC";
-    position: absolute;
-    text-align: center;
+path.zones:hover{
+    stroke:black;
+    stroke-width:1;
 }
 
 #year-label{
     font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 }
 
+#title{
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    display:block;
+    margin:auto;
+    width:40%;
+    position:relative;
+}
+
+#labelSelectContainer{
+    position:relative; display:block; margin:auto; width:20%;
+}
+
+/*Net Migration Styles*/
+
+
+#svgCanvas{
+    height: 500px;
+    width: 960px;
+    position: relative;
+    left: 0;
+    top: 10%;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
 
 .axis path,
 .axis line {
@@ -181,4 +147,83 @@ path.zones:hover{
 #check-list li{
     list-style-type: none;
     display: inline;
+    margin-right: 25px;
+}
+
+.county{
+    opacity:0;
+}
+
+.list-container{
+    display:inline;
+}
+
+
+
+/*General View Styling*/
+
+
+
+.view.ng-enter{
+    -webkit-animation: fadeIn 1.5s both ease-in;
+    z-index:8888;
+}
+
+table{
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+
+
+/*Bootstrap Media Query*/
+
+@media (min-width: 768px){
+    #mapCanvasRegion{
+        width:60%;
+    }
+
+    #navContainer{
+        width:40%;
+    }
+
+    #labelSelectContainer{
+        width:20%;
+    }
+
+    #title{
+        width:40%
+    }
+
+    #mapCanvas{
+        width:60%;
+    }
+
+    .view-canvas{
+        width: 30%;
+    }
+}
+@media (max-width: 767px){
+    #mapCanvasRegion{
+        width:100%;
+    }
+
+    #navContainer{
+        width:85%;
+    }
+
+    #labelSelectContainer{
+        width:30%;
+    }
+
+    #title{
+        width:100%
+    }
+
+    #mapCanvas{
+        width:100%;
+    }
+    .view-canvas{
+        width: 50%;
+    }
+
 }
